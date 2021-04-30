@@ -1,0 +1,45 @@
+.campus_mainDiv
+{
+    border: 1px solid #c7c7c7;
+    padding-left: 0px;
+    padding-right: 0px;
+    float: none
+}
+
+.campus_mainDiv img
+{
+  width: 100%;
+}
+
+.campus_mainDiv hr
+{
+    width: 230px; 
+}
+
+.campus_mainDiv h5 , .campus_mainDiv p
+{
+margin-left: 20px;
+}
+#achievementID{
+    padding-bottom: 10px;
+}
+
+. acheivements_head
+{
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+. acheivements_head i
+{
+float: right;
+}
+
+.movie_text span
+{
+color: #ff7700;
+}

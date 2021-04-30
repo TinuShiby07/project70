@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Perter Parker</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus">Campus life</a></li>
+                <li><a href="#achievements">Acheivements</a></li>
+                <li><a href="#whatsnew">What's New</a></li>
+                <li><a href="#books">Books</a></li>
+                <li><a href="#aboutMe">About Me</a></li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <div class="container">
+
+        <div class="page-header" id="campus">
+            <h2 class="text-capitalize">Campus tour</h2>
+        </div>
+
+        <center>
+            <div class="campus_mainDiv">
+                <img class="img-responsive" src="church.jpg">
+
+                <h4 class="text-capitalize"><kbd>School church</kbd></h4>
+
+                <hr>
+
+                <h5 class="text-success text-left text-capitalize">Was established in December 1975</h5>
+
+                <p class="text-muted text-left">Peaceful area in our campus </p>
+            </div>
+        </center>
+
+        <br><br>
+
+        <center>
+            <div class="campus_mainDiv">
+                <img class="img-responsive" src="library.jpg">
+
+                <h4 class="text-capitalize"><kbd>school library</kbd></h4>
+
+                <hr>
+
+                <h5 class="text-success text-left text-capitalize">It was established on January 1970</h5>
+
+                <p class="text-muted text-left">Our school library is one of the best in the city. Have a collection of over 3000 books</p>
+            </div>
+        </center>
+
+        <br><br>
+
+        <center>
+            <div class="campus_mainDiv">
+                <img class="img-responsive" src="auditorium.jpg">
+
+                <h4 class="text-capitalize"><kbd>School auditorium</kbd></h4>
+
+                <hr>
+
+                <h5 class="text-success text-left text-capitalize">Was built in 2000.</h5>
+
+                <p class="text-muted text-left">Biggest auditorium with a seating capacity of 2000 people.</p>
+            </div>
+        </center>
+
+        <div class="page-header" id="achievements">
+            <h2 class="text-capitalize">School Achievements</h2>
+        </div>
+
+        <div class="bg-primary acheivements_head" data-toggle="collapse" data-target="#debate"><span>Inter School Debate Competition</span>
+            <i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="debate" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementID">
+                <img src="debate.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">debate competition
+                </h5>
+                <p>Won first prize</p>
+            </div>
+
+        </div>
+        <br>
+        <br>
+
+        <div class="bg-primary acheivements_head" data-toggle="collapse" data-target="#football"><span>
+                Football Competition</span><i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="football" class="collapse">
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementID">
+                <img src="football.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Won second prize
+                </h5>
+                <p>Have an amazing team at school level.</p>
+            </div>
+        </div>
+        <br>
+        <br>
+
+
+        <div class="bg-primary acheivements_head" data-toggle="collapse" data-target="#science"><span>
+                Science project</span><i class="fa fa-sort-desc"></i>
+        </div>
+
+        <div id="science" class="collapse">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" id="achievementID">
+                <img src="science_project.jpg" class="img-responsive img-thumbnail">
+            </div>
+
+            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 movie_text">
+                <h5 class="text-success text-left text-capitalize">Created a mobile phone detector
+                </h5>
+                <p>Have a supportive science faculties</p>
+            </div>
+        </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="whatsnew">
+            <h2 class="text-capitalize ">what's new</h2>
+        </div>
+
+        <ul class="list-group">
+
+            <li class="list-group-item list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>New school canteen</h4>
+                <img src="canteen.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">In an effort to be more environmentally responsible, LEGO have said they aim to stop manufacturing bricks made of plastic resin and are considering other options, which could include hemp. According to Telegraph World, the company makes 60 billion blocks a year. While LEGO want to replace the harmful plastic used in their products, they also require the new material to meet the high standards that allow the blocks to work as they always have, especially with the effective “clicking” together is a key aspect of the iconic coloured block.</p>
+            </li>
+
+            <li class="list-group-item list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+                <h4>Attendance maagement sysytem</h4>
+                <img src="attendence.jpg" class="img-responsive col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                <p class="list-group-item-text col-lg-7 col-md-7 col-sm-7 col-xs-12">The perceived scale of the Amazon blazes received global attention this summer. However, international concerns raised at the time were countered by the Brazilian Government, which claimed the fire situation in August was 'normal' and 'below the historical average'.An international team of scientists writing in the journal Global Change Biology say the number of active fires in August was actually three times higher than in 2018 and the highest number since 2010.</p>
+            </li>
+
+
+        </ul>
+    </div>
+</body></html>
